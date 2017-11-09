@@ -2,7 +2,7 @@
 def prime?(num)
   arr = (2..(num)).to_a
   if num < 2
-    false
+    return false
   end
   for i in arr
     if (num % i) == 0
