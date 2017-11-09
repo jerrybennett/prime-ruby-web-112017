@@ -1,6 +1,6 @@
 # Add  code here!
-def prime?(n)
-  if n < 2
+def prime?(num)
+  if num < 2
     return false
   end
   for d in 2..(n - 1)
