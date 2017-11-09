@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  arr = (2..(num - 1)).to_a
+  arr = (3..(num)).to_a
   if num < 2
     return false
   end
