@@ -1,6 +1,7 @@
 # Add  code here!
 def prime?(num)
-  for i in 2..(num - 1)
+  arr = (2..(num - 1)).to_a
+  for i in arr
     if (num % i) == 0
       return false
     else
