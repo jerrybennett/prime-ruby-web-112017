@@ -1,12 +1,13 @@
 # Add  code here!
 def prime?(num)
+  arr = (2..(num - 1)).to_a
   if num < 2
     return false
   end
-  for d in 2..(n - 1)
-   if (n % d) == 0
-    return false
-   end
+  for i in arr
+    if (num % i) == 0
+      return false
+    end
   end
   return true
 end
